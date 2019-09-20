@@ -1,0 +1,134 @@
+.gnomedetail {
+  width: 100%;
+  height: calc(100vh - 5rem);
+  background-color: $color-grey-light;
+
+  img {
+    max-height: 20rem;
+
+    @media screen and (min-width: 768px){
+      max-height: 40rem;
+    }
+  }
+
+  &-container {
+    width: 100%;
+    height: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
+    background-color: $color-white;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+    h1 {
+      height: 5rem;
+      font-size: 2.5rem;
+      text-align: center;
+      text-decoration: underline;
+      color: $color-grey-dark;
+    }
+
+    .back-button {
+      width: 6rem;
+      height: 3rem;
+      border-radius: 10rem;
+      background-color: rgba(48, 122, 134, .7);
+      position: absolute;
+      top: -4rem;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 600;
+      box-shadow: 0px 3px 5px -2px rgba(150,150,150,.5);
+      transition: all .5s linear;
+      cursor: pointer;
+
+       &:hover {
+        background-color: $color-primary-blue;
+       }
+    }
+
+    .gnomedetail-card {
+      position: relative;
+      width: 90%;
+      border: 1px solid $color-primary-lightgrey;
+      border-radius: 5px;
+      box-shadow: 0px 3px 5px -2px rgba(150,150,150,.5);
+
+      &-image {
+        text-align: center;
+        background-color: $color-grey-light;
+        padding-top: 1rem;
+      }
+
+      &-name {
+        height: 4rem;
+        background-color: $color-primary-blue;
+        @import url('https://fonts.googleapis.com/css?family=Raleway:600,700&display=swap');
+        color: rgba(255, 255, 255, 0.678);
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+      }
+
+      &-age {
+        display: flex;
+        background-color: $color-grey-light;
+        justify-content: center;
+         p{
+           padding: 0 5px;
+
+           &:not(:last-child){
+             border-right: 1px solid $color-primary-coral;
+           }
+
+           span {
+             color: $color-primary-blue;
+             font-weight: bolder;
+           }
+         }
+      }
+
+      &-friends, &-professions {
+        margin-left: 5px;
+        h2 {
+          color: $color-primary-coral;
+          font-size: 2rem;
+          text-align: center;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+
+      &-tagbody {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 40rem;
+        margin: 0 auto;
+
+        @media screen and (min-width: 768px){
+          max-height: 35rem;
+        }
+
+        span {
+          background: linear-gradient(to left, #f2709c, #ff9472);
+          color: white;
+          padding: 2px 5px;
+          margin: 2px 3px;
+          border-radius: 1.5rem;
+        }
+      }
+    }
+  }
+
+}
+

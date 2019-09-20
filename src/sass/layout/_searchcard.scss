@@ -1,0 +1,48 @@
+.search-card {
+  position: relative;
+  height: 10rem;
+  border: 1px solid $color-primary-lightgrey;
+  border-radius: 5px;
+  z-index: 0;
+  margin-bottom: 1rem;
+  box-shadow: 0px 3px 5px -2px rgba(150,150,150,.5);
+  display: flex;
+
+
+  &-haircolor {
+    width: 1.5rem;
+    height: 100%;
+    background-color: blue;
+  }
+
+  &-info {
+    padding-left: 5px;
+    &-name {
+      color: $color-grey-dark;
+      font-size: 2rem;
+      font-weight: 600;
+
+      @media screen and (min-width: 768px){
+        font-size: 2.5rem;
+      }
+    }
+
+    &-age {
+      span {
+        color: $color-primary-blue;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
+  }
+
+  &-heart {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 5rem;
+    padding-right: 1rem;
+    z-index: 100;
+    cursor: pointer;
+  }
+}

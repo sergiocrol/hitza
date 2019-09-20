@@ -1,0 +1,11 @@
+.writing{
+  stroke: F1595F;
+  fill: none;
+  animation: write 1s ease-out 0s 1 forwards;
+}
+
+@keyframes write{
+  100%{
+       stroke-dashoffset: 0;
+  }
+}
