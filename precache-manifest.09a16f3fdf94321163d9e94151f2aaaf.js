@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0ed140efbca4223ce1fd71bfb296300",
+    "revision": "71a2dad79d38ee8f66455a6a2365cc68",
     "url": "/hitza/index.html"
   },
   {
-    "revision": "6abac977e8f7151293a9",
-    "url": "/hitza/static/css/main.d1a5a51f.chunk.css"
+    "revision": "0f04fa094bde874769a6",
+    "url": "/hitza/static/css/main.91184098.chunk.css"
   },
   {
-    "revision": "8e72d287007338ae6ba5",
-    "url": "/hitza/static/js/2.4ed425c4.chunk.js"
+    "revision": "9204d707bf1c4ce7127a",
+    "url": "/hitza/static/js/2.26641928.chunk.js"
   },
   {
-    "revision": "6abac977e8f7151293a9",
-    "url": "/hitza/static/js/main.92422738.chunk.js"
+    "revision": "0f04fa094bde874769a6",
+    "url": "/hitza/static/js/main.6d507d51.chunk.js"
   },
   {
     "revision": "8b625877c97699688264",
@@ -34,5 +34,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce070b7d8999a633603f17eb16af3f51",
     "url": "/hitza/static/media/heart.ce070b7d.svg"
+  },
+  {
+    "revision": "878c1e238a94dab66f1ddd100147ea8e",
+    "url": "/hitza/static/media/heart1.878c1e23.svg"
+  },
+  {
+    "revision": "c729caf9055bcbfd1934a561d59b7430",
+    "url": "/hitza/static/media/heart2.c729caf9.svg"
   }
 ]);
