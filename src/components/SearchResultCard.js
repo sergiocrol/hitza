@@ -4,6 +4,9 @@ import { Redirect } from 'react-router-dom';
 
 import WithAuth from '../components/WithAuth.js';
 
+import heart1 from '../images/heart1.svg';
+import heart2 from '../images/heart2.svg';
+
 class SearchResultCard extends Component {
   state = {
     redirect: false,
@@ -54,7 +57,8 @@ class SearchResultCard extends Component {
       <div className="search-card" onClick={this.redirectToInhabitant}>
         <div className="search-card-haircolor" style={{backgroundColor: hair_color}}></div>
         <div className="search-card-info"><p className="search-card-info-name">{name}</p> <p className="search-card-info-age">age <span>{age}</span></p></div>
-        <span className="search-card-heart" onClick={this.handleFavorite} style={favoriteList.includes(id) ? { color: '#F2627A' } : { color: '#adabab' }}>{/*&#9829;*/}&#10084;</span>
+        {/* <span className="search-card-heart" onClick={this.handleFavorite} style={favoriteList.includes(id) ? { color: '#F2627A' } : { color: '#adabab' }}>{}&#10084;</span> */}
+        <div className="search-card-heart" onClick={this.handleFavorite}>{favoriteList.includes(id) ? <img src={heart2} alt="heart selected" /> : <img src={heart1} alt="heart not selected" /> }</div>
       </div>
     );
   }

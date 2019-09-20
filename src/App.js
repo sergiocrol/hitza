@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <AuthProvider>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Redirect exact path="/" to="/welcome" />
             <Redirect exact path="/gnomes" to="/welcome" />

@@ -32,7 +32,7 @@ class WelcomePage extends Component {
             </div>
             <img className="u-margin-bottom-small" src={gnome} alt={'gnome'}/>
             <form onSubmit={this.handleSubmit}>
-              <input className="input u-margin-bottom-medium" type="text" name="name" value={name} onChange={this.handleChange} placeholder="Tsh! human! what's yout name?" />
+              <input className="input u-margin-bottom-medium" type="text" name="name" value={name} onChange={this.handleChange} placeholder="Tsh! human! what's your name?" />
               <button className={name.trim() !== '' ? "button" : "u-is-disabled button"} type="submit">Enter the town</button>
             </form>
             <Link className="jump u-margin-top-medium" to="/homepage">Meh! not now... I'll jump the wall</Link>
