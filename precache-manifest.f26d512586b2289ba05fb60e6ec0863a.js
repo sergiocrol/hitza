@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da6bda86d1c3c8c87ccd91a51846e679",
+    "revision": "a2f9643b14a7b87c10334dadb7311417",
     "url": "/hitza/index.html"
   },
   {
-    "revision": "b997cd095fa6180521c8",
+    "revision": "6e11dbc4760672e23870",
     "url": "/hitza/static/css/main.91184098.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hitza/static/js/2.26641928.chunk.js"
   },
   {
-    "revision": "b997cd095fa6180521c8",
-    "url": "/hitza/static/js/main.ac284626.chunk.js"
+    "revision": "6e11dbc4760672e23870",
+    "url": "/hitza/static/js/main.20616c5d.chunk.js"
   },
   {
     "revision": "8b625877c97699688264",
