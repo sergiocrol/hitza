@@ -1,4 +1,5 @@
 {
+  "homepage": "http://sergiocrol.github.io/hitza",
   "name": "front-assessment",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,8 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +41,7 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^2.1.1"
   }
 }
