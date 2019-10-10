@@ -61,11 +61,7 @@ npm start
 - **react:** v16.9.0
 - **react-router-dom:** Navigation between different components
 - **axios:**  Handle Ajax Requests
-- **nose-sass:** Compile scss to css
-
-## Git
-
-[Repository Link](https://github.com/sergiocrol/front-assessment)
+- **node-sass:** Compile scss to css
 
 ## Author
 
